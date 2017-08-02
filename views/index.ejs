@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Principal</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>CRUD - Nodejs + Express + MySQL</h1>
+
+<a href="/criartabela">Criar Tabela</a><br>
+<a href="/cadastrar_dados_de_exemplo">Cadastrar registro de exemplo</a><br>
+<a href="/novo">Novo</a><br>
+<a href="/alterar?id=82">Alterar</a><br>
+
+<% usuarios.each(function (usuario) { %>
+    <%= usuario.nome %><br>
+<%}); %>
+
+</body>
+</html>
